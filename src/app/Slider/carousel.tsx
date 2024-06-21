@@ -10,20 +10,20 @@ import {PrevArrow, NextArrow} from './arrow'
 import Card from './card';
 
 // for carousel data
-import warfront from "./warriorfront.png";
-import warback from "./warriorback.png";
-import comfront from "./commanfront.png";
-import comback from "./commanback.png";
-import genfront from "./genfront.png";
-import genback from "./genback.png";
-import legfront from "./Legfront.png";
-import legback from "./Legback.png";
-import invfront from "./invfront.png";
-import invback from "./invback.png";
-import adfront from "./adfront.png";
-import adback from "./adback.png";
-import confront from "./confront.png";
-import conback from "./conback.png";
+import warfront from "../../../public/Warriorfront.png";
+import warback from "../../../public/warriorback.png";
+import comfront from "../../../public/commanfront.png";
+import comback from "../../../public/commanback.png";
+import genfront from "../../../public/genfront.png";
+import genback from "../../../public/genback.png";
+import legfront from "../../../public/Legfront.png";
+import legback from "../../../public/Legback.png";
+import invfront from "../../../public/invfront.png";
+import invback from "../../../public/invback.png";
+import adfront from "../../../public/adfront.png";
+import adback from "../../../public/adback.png";
+import confront from "../../../public/confront.png";
+import conback from "../../../public/conback.png";
 
 
 
