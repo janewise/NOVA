@@ -1,0 +1,8 @@
+.whitebg{
+   background-image: url(../../../public/Whitebgi.png);
+   min-height:100vh;
+   min-width: 100%;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}

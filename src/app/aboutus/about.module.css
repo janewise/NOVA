@@ -1,0 +1,131 @@
+.aboutbg{
+    background-image: url(../../../public/aboutusbg.png);
+    min-height:100vh;
+    min-width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* for about us box to center between left and right*/
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* margin top for nav is absolute top 0 */
+.aboutbox{
+    margin-top: 13%;
+    margin-bottom:30px;
+    width: 50%;
+}
+
+/* color and font size of about us */
+.aboutbox h2,
+.aboutbox p{
+    color: #ffffff;
+    text-align: center;
+}
+
+.aboutbox h2{
+   margin-bottom: 50px;
+}
+
+.aboutbox p{
+    font-weight: 330;
+    margin-bottom: 40px;
+}
+
+.aboutbox p span{
+   font-size: 18px;
+   font-weight: 450;
+}
+
+/* for social box in about us */
+.socialbox{
+    text-align: center;
+}
+
+.socialbox h3{
+    color: #ffffff;
+    display: inline-block;
+}
+
+.icon{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0 8px 0 10px;
+}
+
+.icon:hover{
+    color: #4899F8;
+}
+
+
+/* media quarie for aboutus */
+@media (max-width:1187px){
+    .aboutbox{
+        margin-top: 13%;
+        margin-bottom:30px;
+        width: 60%;
+    }
+  }
+
+  @media (max-width:900px){
+    .aboutbox{
+        margin-top: 13%;
+        margin-bottom:30px;
+        width: 70%;
+    }
+  }
+
+  @media (max-width:768px){
+    .aboutbox{
+        margin-top: 17%;
+        margin-bottom:25px;
+        width: 70%;
+    }
+  }
+
+  @media (max-width:560px){
+    .aboutbox{
+        margin-top: 20%;
+        margin-bottom:25px;
+        width: 80%;
+    }
+  }
+
+  @media (max-width:477px){
+    .aboutbox{
+        margin-top: 25%;
+        margin-bottom:25px;
+        width: 90%;
+    }
+
+    .aboutbox h2{
+        margin-bottom: 30px;
+        font-size: 25px;
+     }
+
+     .aboutbox p{
+        margin-bottom: 30px;
+    }
+  }
+
+  @media (max-width:425px){
+    .aboutbox{
+        margin-bottom:25px;
+        width: 90%;
+    }
+
+    .aboutbox h2{
+        margin-bottom: 30px;
+        font-size: 20px;
+     }
+  }
+
+  @media (max-width:425px){
+    .aboutbox{
+        margin-top: 30%;
+    }
+
+  }

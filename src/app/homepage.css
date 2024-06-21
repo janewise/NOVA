@@ -1,0 +1,413 @@
+.homebg {
+    background-image: url(../../public/homebg.png);
+    min-height: 100vh;
+    min-width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* for hero text */
+    display: flex;
+    flex-direction: column;
+}
+
+/* for Home page Hero text box */
+.herotext {
+    max-width: 720px;
+    margin-left: 3rem;
+    margin-top: 10%;
+    color: #fff;
+    margin-bottom: 4rem;
+}
+
+/* for Home page Main title */
+.herotext h2 {
+    font-size: 4rem;
+    margin-bottom: 3.5rem;
+}
+
+.herotext h2 span {
+    font-size: 3.2rem;
+    font-weight: 450;
+}
+
+/* for Home page paragraph */
+.herotext p {
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-bottom: 3.5rem;
+}
+
+/* for Home page Buy button */
+.herobtn {
+    background-color: rgb(28, 114, 242);
+    color: #fff;
+    font-size: 35px;
+    font-weight: 450;
+    border: none;
+    padding: 0 2.5rem;
+    border-radius: 1rem;
+}
+
+/* for Home page Kind of NFT text */
+.herotext h3 {
+    margin-top: 3rem;
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+
+
+/* Rensponsive for Hero page Main text box */
+@media (max-width:1030px) {
+    .herotext {
+        margin-top: 14%;
+    }
+
+    .herotext h2 {
+        font-size: 3.5rem;
+        margin-bottom: 3.2rem;
+    }
+
+    .herotext h2 span {
+        font-size: 2.8rem;
+    }
+
+    .herotext p {
+        font-size: 2.3rem;
+        margin-bottom: 3.3rem;
+    }
+}
+
+/* form 801 */
+@media (max-width:801px) {
+    .herotext {
+        margin-top: 17%;
+    }
+
+    .herotext h2 {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+        font-weight: 450;
+    }
+
+    .herotext h2 span {
+        font-size: 2.4rem;
+        font-weight: 400;
+    }
+
+    .herotext p {
+        font-size: 2.2rem;
+        margin-bottom: 3rem;
+    }
+
+    .herotext h3 {
+        font-size: 2.1rem;
+    }
+}
+
+/* from 701 */
+@media (max-width:701px) {
+
+    .herotext{
+        margin-left: 2rem;
+        }
+
+    .herotext h2 {
+        font-size: 2.7rem;
+        margin-bottom: 2.5rem;
+        font-weight: 410;
+    }
+
+    .herotext h2 span {
+        font-size: 2.1rem;
+    }
+
+    .herotext p {
+        font-size: 2.2rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .herotext h3 {
+        font-size: 2rem;
+    }
+}
+
+/* from 650 */
+@media (max-width:650px) {
+    .herotext{
+       margin-top: 27%;
+        }
+}
+
+/* from 520 */
+@media (max-width:520px) {
+.herotext{
+    max-width: 480px;
+}
+
+    .herotext h2 {
+        font-size: 2.5rem;
+    }
+
+    .herotext h2 span {
+        font-size: 1.9rem;
+        margin-bottom: 3rem;
+        font-weight: 450;
+    }
+
+    .herotext p {
+        font-size: 1.8rem;
+        margin-bottom: 3rem;
+    }
+
+    /* for Home page Buy button */
+.herobtn {
+    font-size: 1.7rem;
+    font-weight: 400;
+    padding: 0 2.3rem;
+    border-radius: 1rem;
+}
+
+}
+
+/* from 425 */
+@media (max-width:425px) { 
+        .herotext h2 {
+            font-size: 2.1rem;
+        }
+    
+        .herotext h2 span {
+            font-size: 1.6rem;
+        }
+    
+        .herotext p {
+            font-size: 1.4rem;
+        }
+        .herotext h3 {
+            font-size: 1.5rem;
+        }
+    }
+
+/* from 350 */
+@media (max-width:350px) { 
+   .herotext{
+    margin-left:1rem;
+   }
+    .herotext h2 {
+        font-size: 1.9rem;
+    }
+
+    .herotext h2 span {
+        font-size: 1.5rem;
+    }
+
+    .herotext p {
+        font-size: 1.3rem;
+    }
+    .herotext h3 {
+        font-size: 1.3rem;
+    }
+}    
+
+
+/* *** ---Formhere for Cardflip and carousel---- *** */
+
+/* for cardflip */
+ .flipCard {
+    background-color: transparent;
+    width: 252px;
+    height: 350px;
+    perspective: 1000px;
+    cursor: pointer;
+  }
+  
+  .flipCardInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .isFlipped {
+    transform: rotateY(180deg);
+  }
+  
+  .flipCardFront, .flipCardBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+   box-shadow: 8px 8px 2px rgba(0, 0, 0, 0.62);
+   }
+  
+  .flipCardFront {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .flipCardBack{
+    transform: rotateY(180deg);
+        width: 100%;
+        height: 100%;
+      
+    } 
+   
+    .flipCardBackContent {
+        position:relative;
+        height:100%;
+        width: 100%;
+        overflow:hidden;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 8px;
+        aspect-ratio: 1 / 1;
+        clip-path: border-box;
+        }  
+         .flipCardBackContent::before {
+        z-index:-1;
+        content:'';
+        position:absolute;
+        inset: -47%;
+        background: linear-gradient(to bottom right, rgba(0, 208, 255, 0.5) 0%, rgba(245, 38, 249, 0.6) 100%);
+        animation: 8s linear infinite rot;
+        }
+        @keyframes rot {
+          0% {
+            transform: rotate(0);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+
+
+  /* carousel */
+.carousel-container{
+    width: 95%;
+}
+
+  .centerbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+   .center{
+    display: flex !important; 
+    justify-content: center !important;
+    /* for box shadowdow card */
+    margin-bottom: 8px;
+   }
+
+   /* for next button */
+   .slick-prev:before, .slick-next:before {
+font-size: 35px !important;
+color: rgba(255, 255, 255, 0.9) !important;
+
+   }
+
+   .slick-next {
+    position: absolute !important ;
+    right:-0.6% !important;
+   }
+
+
+   .slick-prev {
+    position: absolute !important ;
+    left: -2% !important;
+   }
+
+
+
+   /* flipcard and carousel tesponsive */
+  /* from 1024 */
+@media (max-width:1194px) {
+    .flipCard {
+        width: 222px;
+        height: 320px;
+      }
+    }
+
+    @media (max-width:1078px) {
+        .slick-next {
+            right:-1% !important;
+           }
+           .slick-prev {
+            left: -2.5% !important;
+           }
+        }   
+        
+@media (max-width:968px) {
+                .carousel-container{
+                    width: 90%;
+                }
+
+                .flipCard {
+                    width: 172px;
+                    height: 270px;
+                  }
+                  .slick-next {
+                    right:-3% !important;
+                   }
+                   .slick-prev {
+                    left: -5.5% !important;
+                   } 
+                } 
+                
+                
+@media (max-width:651px) {
+        .flipCard {
+            width: 152px;
+            height: 250px;
+          }
+
+        .slick-next {
+            right:-3% !important;
+           }
+           .slick-prev {
+            left: -5.5% !important;
+           } 
+        } 
+
+
+@media (max-width:620px) {
+            .flipCard {
+                width: 132px;
+                height: 230px;
+              }
+    
+            .slick-next {
+                right:-2.1% !important;
+               }
+            } 
+
+@media (max-width:540px) {
+        
+.flipCard {
+     width: 112px;
+     height: 210px;
+ }
+.slick-next {
+    right:-2.4%;
+               }  
+   .slick-prev {
+    left: -5.5%;
+    z-index: 2;
+} 
+ }
+            
+          
+        
+ @media (max-width:420px) {
+    
+    .flipCard {
+         width: 122px;
+         height: 205px;
+     }
+   
+     }
