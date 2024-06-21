@@ -10,20 +10,20 @@ import {PrevArrow, NextArrow} from './arrow'
 import Card from './card';
 
 // for carousel data
-import warfront from "./slideimg/warriorfront.png"
-import warback from "./slideimg/warriorback.png"
-import comfront from "./slideimg/commanfront.png"
-import comback from "./slideimg/commanback.png"
-import genfront from "./slideimg/genfront.png"
-import genback from "./slideimg/genback.png"
-import legfront from "./slideimg/Legfront.png"
-import legback from "./slideimg/Legback.png"
-import invfront from "./slideimg/invfront.png"
+import warfront from ".//slideimg/warriorfront.png"
+import warback from ".//slideimg/warriorback.png"
+import comfront from ".//slideimg/commanfront.png"
+import comback from ".//slideimg/commanback.png"
+import genfront from ".//slideimg/genfront.png"
+import genback from ".//slideimg/genback.png"
+import legfront from ".//slideimg/Legfront.png"
+import legback from ".//slideimg/Legback.png"
+import invfront from ".//slideimg/invfront.png"
 import invback from "./slideimg/invback.png"
-import adfront from "./slideimg/adfront.png"
+import adfront from ".//slideimg/adfront.png"
 import adback from "./slideimg/adback.png"
-import confront from "./slideimg/confront.png"
-import conback from "./slideimg/conback.png"
+import confront from ".//slideimg/confront.png"
+import conback from ".//slideimg/conback.png"
 
 
 
